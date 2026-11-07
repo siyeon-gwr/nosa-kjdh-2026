@@ -1,0 +1,17 @@
+# Console output of the leave-one-out run, July 2026 (verbatim; shell prompt lines removed)
+# Command: python scripts/nosa/eval_loo.py --hold itongseol
+hold: 理通說 (itongseol) — 예시 제외
+예시: 答權信元 (kwonsinwon) 1편, 단위 13개 [축약본]
+  경고: 예시 答權信元이 축약본(…)이다. SYSTEM의 '원문 일치' 지시와 어긋난 견본이다.
+        다른 방향(--hold kwonsinwon) 수치와 같은 잣대로 비교하지 마라.
+채점: 시작 경계 기준 앞 15자, 끝 경계 미채점
+코퍼스: key=0628A_0160_010_0010 | 이통설〔理通說〕 | 雜著 | 노사집 제16권 | 900자
+골드 단위 수: 12 | max_tokens=4000
+분절 요청 중...
+예측 단위 수: 11
+====================================================
+골드 12 / 예측 11
+경계 일치        9/12  (미매칭 골드 3, 잉여 예측 2)
+quoted_speaker   정확 7 (인용 0·비인용 7) / 오배정 0 (과잉 0·오인 0) / 미배정 2
+function 일치     5/9
+====================================================

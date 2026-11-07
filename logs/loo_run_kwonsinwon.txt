@@ -1,0 +1,15 @@
+# Console output of the leave-one-out run, July 2026 (verbatim; shell prompt lines removed)
+# Command: python scripts/nosa/eval_loo.py --hold kwonsinwon
+hold: 答權信元 (kwonsinwon) — 예시 제외
+예시: 理通說 (itongseol) 1편, 단위 12개
+채점: 시작 경계 기준 앞 15자, 끝 경계 미채점 (答權信元 골드가 축약본)
+코퍼스: key=0628A_0040_010_0080 | 권신원에게 답하다〔答權信元〕 | 書 | 노사집 제4권 | 2176자
+골드 단위 수: 13 | max_tokens=4000
+분절 요청 중...
+예측 단위 수: 39
+====================================================
+골드 13 / 예측 39
+경계 일치        3/13  (미매칭 골드 10, 잉여 예측 36)
+quoted_speaker   정확 3 (인용 0·비인용 3) / 오배정 0 (과잉 0·오인 0) / 미배정 0
+function 일치     2/3
+====================================================

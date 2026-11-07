@@ -1,0 +1,22 @@
+Creative Commons Attribution 4.0 International (CC BY 4.0)
+
+Copyright (c) 2026 Lee Si-yeon (siyeon-gwr)
+
+The data files in this package (data/ and the segmentation artifacts in
+prompts/) are licensed under the Creative Commons Attribution 4.0
+International License (CC BY 4.0).
+
+You are free to share and adapt the material for any purpose, provided
+you give appropriate credit, link to the license, and indicate changes.
+
+Full license text: https://creativecommons.org/licenses/by/4.0/legalcode
+Summary: https://creativecommons.org/licenses/by/4.0/
+
+ATTRIBUTION / SOURCE NOTICE
+- Source classical text and punctuation (hanmun) are from the Institute
+  for the Translation of Korean Classics (한국고전번역원), Korean Classics
+  DB (한국고전종합DB, https://db.itkc.or.kr). The original rights in the
+  source text and punctuation remain with ITKC and are subject to ITKC's
+  terms of use; this package redistributes only derived, segmented units
+  with source attribution.
+- Korean translations (번역문) from ITKC are NOT included or redistributed.

@@ -1,0 +1,25 @@
+diff --git a/routers/base_scholar.py b/routers/base_scholar.py
+index 7f4a34a..b0f0009 100644
+--- a/routers/base_scholar.py
++++ b/routers/base_scholar.py
+@@ -258,6 +258,12 @@ def generate_answer(
+         "인용임을 밝힌 뒤 그에 대한 자신의 입장을 구분해 답하라."
+         if (cite_guard and has_quote) else ""
+     )
++    # 학자별 인용 귀속 세칙. 해당 config 키가 있는 학자(현재 nosa 뿐)에게만 붙는다.
++    # 키가 없는 학자는 빈 문자열이라 프롬프트가 그대로 유지된다.
++    cite_guard_rules = (
++        scholar_config.get("cite_guard_rules", "")
++        if (cite_guard and has_quote) else ""
++    )
+ 
+     system_prompt = f"""**핵심 원칙: 아래 제공된 원문만을 1차 근거로 삼아라. GPT 사전학습 지식 사용 절대 금지.**
+ 
+@@ -271,6 +277,7 @@ def generate_answer(
+ 4. [생애/맥락]: 답변에 자연스럽게 녹여 쓸 것.
+    절대 금지: "기록에 따르면", "문집에 의하면" 등 메타 표현.
+ {cite_rule}
++{cite_guard_rules}
+ [원문]
+ {context}
+ 

@@ -1,0 +1,77 @@
+{
+  "work": "蘆沙集",
+  "author": "奇正鎭",
+  "seoji_id": "0628A",
+  "total_pieces": 1125,
+  "volumes": 19,
+  "genre_policy": [
+    {
+      "genre": "書",
+      "volumes": "권4~15",
+      "count": 696,
+      "index": true,
+      "unit": "발화",
+      "rule": "答: 인용 표지(來喩·示喩·來書云 등)로 상대 발화 경계 복원 후 응답 단위로 분절. 與: 인용 없음, 완결+최소성 기준으로 논지 단위 분절.",
+      "meta": ["speaker=奇正鎭", "addressee=수신자", "quoted_speaker=수신자(答에 한함)", "letter_kind(答/與)"]
+    },
+    {
+      "genre": "雜著",
+      "volumes": "권16",
+      "count": 36,
+      "index": true,
+      "unit": "발화",
+      "rule": "논설. 완결+최소성으로 분절. 논박 대상의 말이 인용으로 섞이므로 quoted_speaker와 인용 경고 필수.",
+      "meta": ["speaker=奇正鎭", "quoted_speaker=논박대상", "quote_warning"]
+    },
+    {
+      "genre": "序",
+      "volumes": "권17~19",
+      "count": 114,
+      "index": true,
+      "unit": "문서",
+      "rule": "서문·헌사. 응답 아님. 문서 단위로 색인.",
+      "meta": ["speaker=奇正鎭", "target=대상문헌/인물"]
+    },
+    {
+      "genre": "疏",
+      "volumes": "권3",
+      "count": 3,
+      "index": true,
+      "unit": "문서",
+      "rule": "상소. 문서 전체가 하나의 발언. 조목이 있으면 조목 단위.",
+      "meta": ["speaker=奇正鎭", "addressee=임금"]
+    },
+    {
+      "genre": "辭狀",
+      "volumes": "권3",
+      "count": 3,
+      "index": true,
+      "unit": "문서",
+      "rule": "사직 문서. 문서 단위.",
+      "meta": ["speaker=奇正鎭", "addressee=관부"]
+    },
+    {
+      "genre": "策",
+      "volumes": "권3",
+      "count": 1,
+      "index": true,
+      "unit": "문서",
+      "rule": "대책문. 문서 단위.",
+      "meta": ["speaker=奇正鎭"]
+    },
+    {
+      "genre": "詩",
+      "volumes": "권1~2",
+      "count": 272,
+      "index": false,
+      "unit": "-",
+      "rule": "발화 아님. 색인 제외. 단, 전(全)갈래 대조군용으로 tag만 보관하여 시가 검색을 오염시키는 비율 측정에 사용.",
+      "meta": ["excluded=true", "reason=non-utterance"]
+    }
+  ],
+  "index_body": {
+    "발화단위": ["書 696", "雜著 36"],
+    "문서단위": ["序 114", "疏 3", "辭狀 3", "策 1"],
+    "제외": ["詩 272"]
+  }
+}
