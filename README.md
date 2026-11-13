@@ -1,5 +1,7 @@
 # Nosa (蘆沙 奇正鎭) AI — KJDH-2026-010 재현 패키지
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24029112.svg)](https://doi.org/10.5281/zenodo.24029112)
+
 노사집(蘆沙集) 기반 발화단위 RAG의 **분절·생성·평가 재현물**. 운영 전체 코퍼스·벡터 DB·프로덕션 인프라는 포함하지 않는다.
 
 ## 1. 원문 출처와 수집
@@ -88,7 +90,9 @@ LICENSE-DATA  (CC BY 4.0)   LICENSE-CODE  (MIT)
 
 ## 6. 인용
 
-이시연 (2026). Nosa Ki Jeongjin AI: index data and scripts (KJDH-2026-010). GitHub: siyeon-gwr/nosa-kjdh-2026. Zenodo DOI는 첫 릴리스 후 추가한다.
+이시연 (2026). Nosa Ki Jeongjin AI: index data and scripts (KJDH-2026-010). Zenodo. https://doi.org/10.5281/zenodo.24029112
+
+코드 저장소: https://github.com/siyeon-gwr/nosa-kjdh-2026
 
 ## 7. 라이선스
 
